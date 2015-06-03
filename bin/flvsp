@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+'use strict';
+
+var flvsp = require('../lib/flvsp');
+var prettyjson = require('prettyjson');
+
+flvsp(process.argv[2], function(res) {
+  console.log(prettyjson.render(res));
+});

@@ -8,16 +8,20 @@
   },
   "preferGlobal": "true",
   "bin": {
-      "flvsp": "./bin/flvsp"
+    "flvsp": "./bin/flvsp"
   },
   "repository": {
-      "type": "git",
-      "url": "https://github.com/coolzilj/flvsp-api"
+    "type": "git",
+    "url": "https://github.com/coolzilj/flvsp-api"
   },
   "bugs": {
-      "url": "https://github.com/coolzilj/flvsp-api/issues"
+    "url": "https://github.com/coolzilj/flvsp-api/issues"
   },
   "author": "Jin Liu",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "prettyjson": "^1.1.2",
+    "request": "^2.57.0"
+  }
 }
-
